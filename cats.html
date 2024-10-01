@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie2_JS_cats</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Brak">
+    <link rel="stylesheet" href="styles_cats.css">
+</head>
+<body>
+    <div>
+        <h3>Wypowiedz się na temat cyfryzacji sektora bankowego w Polsce</h3>
+    </div>
+    <div>
+        <input type="text" id="text" placeholder="Twoja wypowiedz">
+        <button onclick="Wartosc()">dodaj</button>
+    </div>
+    <div id="div1"></div>
+    <script>
+    function Wartosc() {
+        const text = document.querySelector('#text').value;
+        const newP = document.createElement("p");
+        newP.appendChild(document.createTextNode(text));
+        div1.appendChild(newP);
+        console.log(inputValue);
+    };
+    </script>
+</body>
