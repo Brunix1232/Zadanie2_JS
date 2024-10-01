@@ -10,3 +10,5 @@ for(let i = 0; i < 5; i++) {
     newLi.appendChild(document.createTextNode(tab[i]));
     lista1.appendChild(newLi);
 }
+
+$("#img1").fadeOut().delay(5000).fadeIn();
